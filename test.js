@@ -25,7 +25,7 @@ describe("Open webpage", function () {
     });
 
     it("Edit employee", function () {
-        element(by.id('bEdit')).click();
+        element(by.css("#employee-list li[value='Vojta Jina']")).click();
         element(by.buttonText('Edit')).click();
         element(by.model('employee.firstName')).clear();
         element(by.model('employee.firstName')).sendKeys('Votja');
