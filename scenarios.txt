@@ -1,0 +1,42 @@
+Feature: Testing the functionalities of the webpage
+
+  Scenario: WebPage Login
+    Given the user is in the login webpage
+    When enters their creadentials
+    And clicks the button login
+    Then the user is loged in
+
+    Scenario 2 : Adding an employee
+    Given the user is on the main page
+    And wants to create a new employee
+    When clicks the button Add new
+    And the creation form is showed
+    Then enters the new data
+    And clicks the send button
+    And new employee is created
+    
+    Scenario 3 : Modify an existing employee
+    Given the user is on the main page
+    And wants to edit an existing employee
+    When clicks the button Edit
+    And the form is showed
+    Then enters the new data
+    And clicks the send button
+    And the employee is modified
+    
+    Scenario 4 : Delete an employee
+    Given the user is on the main page
+    And wants to delete an existing employee
+    When the user select an employee
+    And clicks the button Delete
+    And the employee is deleted
+    
+    Scenario 5 : Logput
+    Given the user is on the main page
+    When clicks logout
+    And the browser is closed
+    
+    
+    
+    
+    
