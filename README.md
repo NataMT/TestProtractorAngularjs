@@ -24,17 +24,17 @@ Test cases for "https://thomasburleson.github.io/angularJS-CafeTownsend/"
 -Enter start date
 -Click save button
 
-- [x] #**Edit an existing employee (Passed)**
+- [ ] #**Edit an existing employee (pending) **
 -Select an employee
 -Click 'Edit' button
 -Replace data on any field
 -Click 'Save' button
 
-- [ ] #**Delete an existing employee**
+- [x] #**Delete an existing employee (Passed)**
 -Select an employee
 -Click 'Delete' button
 
-- [ ] #**Logout**
+- [x] #**Logout (Passed)**
 -Click Logout button
 
 
